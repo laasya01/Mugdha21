@@ -1,0 +1,166 @@
+
+.form-div{
+height: 100vh;
+width: 100%;
+background-color: #000000;
+padding-top: 4vh;
+box-sizing: border-box;
+overflow-y: auto;
+}
+/*.form-container{
+  width: 100%;
+height: 80vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}*/
+.heading{
+color: #cbcbcb;
+font-family: Haarlem;
+font-size: 5em;
+letter-spacing: 10px;
+margin-left: 5vh;
+}
+.back-btn{
+float: right;
+margin-right: 5vh;
+color: white;
+font-size: 3em;
+transition: all 0.5s ease-in-out;
+}
+.select-wrapper{
+width: 69%;
+border-radius: 20px;
+position: relative;
+}
+.events-input{
+background-color: #02021b;
+width: 90%;
+padding: 2% 3% 2% 6%;
+border-radius: 20px;
+border: solid 3px #faf2f2;
+color: #cbcbcb;
+font-size: 1.4em;
+font-family: sf-ui;
+height: 55%;
+}
+.form-container{
+width: 100%;
+height: 80vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.input-el{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-flow: column;
+}
+.text-type{
+background-color: #02021b;
+width: 60%;
+padding: 2% 3% 2% 6%;
+border-radius: 20px;
+border: solid 3px #faf2f2;
+color: #cbcbcb;
+font-size: 1.4em;
+font-family: sf-ui;
+}
+.wrapper{
+  width: 69%;
+border-radius: 20px;
+position: relative;
+}
+select:not(.checkboxes){
+  -webkit-appearance: none;
+  border-radius: 20px;
+  padding: 2% 3% 2% 6%;
+  color: #797777;
+  background-color: #02021b;
+  width: 100%;
+  border: solid 3px #faf2f2;
+  font-size: 1.4em;
+  font-family: sf-ui;
+}
+option{
+  color: #797777;
+  font-size: 1.4em;
+  font-family: sf-ui;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding:0px 2px 1px;
+}
+
+.select-wrapper:nth-child(1){
+width: 69%;
+border-radius: 20px;
+position: relative;
+}
+.checkboxes{
+  -webkit-appearance: none;
+border-radius: 20px;
+padding: 2% 3% 2% 6%;
+color: #797777;
+background-color: #02021b;
+width: 60%;
+border: solid 3px #faf2f2;
+font-size: 1.4em;
+font-family: sf-ui;
+box-sizing: content-box;
+}
+.checkboxes option{
+  background: #02021b;
+text-align: start;
+height: 2vh;
+padding: 2% 0 2% 8%;
+color: #cbcbcb;
+font-family: sf-ui;
+font-size: 1em;
+margin-top: 2vh;
+margin-bottom: 2vh;
+cursor: pointer;
+}
+
+.g-recaptcha-container{
+  display: flex;
+justify-content: center;
+width: 100%;
+margin: 0.5% 0;
+}
+.g-recaptcha{
+  display: inline;
+}
+
+.reg-button-container{
+  width: 100%;
+display: flex;
+justify-content: center;
+}
+.register{
+font-size: 1.5em;
+letter-spacing: 2px;
+margin: 1.5vh auto;
+/*background: url("../images/assets/register.png");*/
+background-position: center;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+color: white;
+border: solid 3px #faf2f2;
+padding: 2% 4%;
+border-radius: 20px;
+font-family: SFpro;
+cursor: pointer;
+}
+#footer{
+  padding:5% 15%;
+  text-align:center;
+  color:white;
+}
+.to{
+  margin: 20px 10px;
+}

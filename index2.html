@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles1.css">
+    <script src="assets/javascript/index.js"></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  </head>
+<body data-gr-c-s-loaded="true" style="
+    margin: 0px;
+">
+  <div class="form-div" id="form">
+      <span class="heading">Registration for <img src="logo.png" width="225px"></span>
+        <a href="index5.html" class="back-btn"><i class="fas fa-arrow-left"></i></a>
+        <div class="form-container">
+            <div class="input-el">
+                <input type="text" placeholder=" First Name *" class="text-type" id="name">
+               <input type="text" placeholder=" Last Name *" class="text-type" id="name">
+                <div class="select-wrapper">
+                  <input list="college_input" placeholder="Select your College" autocomplete="off" class="events-input" onclick="this.focus()" "="" onfocus="showData('college_input')">
+                    <datalist id="college_input" autocomplete="off">
+                      <!-- <input type="text" placeholder="Select your College" class="events-input" id="college_input" onclick="displaylist3()" onfocus="displaylist3()" onkeyup="filterFunction2()" />
+                    <div class="events-list"></div> -->
+                    <option id="272" value=" Indian Institute of Crafts and Design" style="display: block;"> Indian Institute of Crafts and Design</option><option id="3" value="ABC Performing Arts" style="display: block;">ABC Performing Arts</option><option id="290" value="acharya institute of technology" style="display: block;">acharya institute of technology</option><option id="4" value="Acharya Narendra Dev College" style="display: block;">Acharya Narendra Dev College</option><option id="5" value="Ajay Kumar Garg Engineering College " style="display: block;">Ajay Kumar Garg Engineering College </option><option id="6" value="Aligarh Muslim University (AMU)" style="display: block;">Aligarh Muslim University (AMU)</option><option id="7" value="Ambedkar University" style="display: block;">Ambedkar University</option><option id="8" value="Amity Business School" style="display: block;">Amity Business School</option>
+                    <option id="24" value="Asian School of Film and Television" style="display: block;">Asian School of Film and Television</option>
+                    <option id="23" value="Ashoka University" style="display: block;">Ashoka University</option>
+                    <option id="38" value="Birla Institute of Technology &amp; Science, Pilani" style="display: block;">Birla Institute of Technology &amp; Science, Pilani</option>
+                    <option id="39" value="BIT Mesra, Jaipur extension" style="display: block;">BIT Mesra, Jaipur extension</option>
+                    <option id="269" value="Chandigarh University " style="display: block;">Chandigarh University </option>
+                    <option id="53" value="Delhi College Of Engineering" style="display: block;">Delhi College Of Engineering</option>
+                    <option id="54" value="Delhi Technological University" style="display: block;">Delhi Technological University</option>
+                    <option id="88" value="IHM-Ahmedabad" style="display: block;">IHM-Ahmedabad</option>
+                    <option id="92" value="IIT Jodhpur" style="display: block;">IIT Jodhpur</option>
+                    <option id="273" value="IIT (BHU) - Music" style="display: block;">IIT (BHU) - Music</option>
+                    <option id="93" value="Indian Institute of Information Technology, Pune, Maharashtra" style="display: block;">Indian Institute of Information Technology, Pune, Maharashtra</option>
+                    <option id="94" value="Indian Institute of Technology (IIT BHU), Varanasi" style="display: block;">Indian Institute of Technology (IIT BHU), Varanasi</option>
+                    <option id="95" value="Indian Institute of Technology (IIT), Delhi" style="display: block;">Indian Institute of Technology (IIT), Delhi</option>
+                    <option id="96" value="Indian Institute of Technology (IIT), Gandhinagar" style="display: block;">Indian Institute of Technology (IIT), Gandhinagar</option>
+                    <option id="97" value="Indian Institute Of Technology, Mumbai" style="display: block;">Indian Institute Of Technology, Mumbai</option>
+                    <option id="98" value="Indian Institute of Technology, Roorkee, " style="display: block;">Indian Institute of Technology, Roorkee, </option>
+                    <option id="102" value="Indore Institute of Science &amp; Technology" style="display: block;">Indore Institute of Science &amp; Technology</option>
+                    <option id="103" value="Indraprastha College for Women, DU" style="display: block;">Indraprastha College for Women, DU</option>
+                    <option id="172" value="National Institute of Fashion Technology,Kangra" style="display: block;">National Institute of Fashion Technology,Kangra</option>
+                    <option id="265" value="National Institute of Open Studies (NIOS) " style="display: block;">National Institute of Open Studies (NIOS) </option>
+                    <option id="173" value="National Institute of Technology Patna" style="display: block;">National Institute of Technology Patna</option>
+                    <option id="175" value="National Institute of technology,Warangal" style="display: block;">National Institute of technology,Warangal</option>
+                    <option id="179" value="NIT Calicut" style="display: block;">NIT Calicut</option>
+                    <option id="278" value="Punjab Engineering College" style="display: block;">Punjab Engineering College</option>
+                    <option id="204" value="School of Open Learning, Delhi" style="display: block;">School of Open Learning, Delhi</option>
+                    <option id="209" value="Shiv Nadar University" style="display: block;">Shiv Nadar University</option>
+                    <option id="229" value="St Xaviers College, Jaipur Nevta branch" style="display: block;">St Xaviers College, Jaipur Nevta branch</option>
+                    <option id="248" value="Trinity Institute of Professional Studies" style="display: block;">Trinity Institute of Professional Studies</option>
+                    <option id="280" value="University School of Management and Entrepreneurship, DTU" style="display: block;">University School of Management and Entrepreneurship, DTU</option>
+                    <option id="254" value="Vellore institute Of Technology" style="display: block;">Vellore institute Of Technology</option>
+                    <option id="261" value="YMCA University of Science and Technology (YMCAUST)" style="display: block;">YMCA University of Science and Technology (YMCAUST)</option>
+                    <option id="262" value="Zakir Husain Delhi College(Morning)" style="display: block;">Zakir Husain Delhi College(Morning)</option>
+                    </datalist>
+                    </div>
+                    <div class="select-wrapper">
+                    <select id="gender_input" autocomplete="off">
+                        <option disabled="" selected="">Select your Gender</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="T">Transgender</option>
+                          <option value="O">other</option>
+                    </select>
+                </div>
+                <div class="select-wrapper">
+                    <select id="yos_opt" class="select-input" autocomplete="off">
+                        <option value="" disabled="" selected="">Select your Year of Study</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <input type="text" placeholder="City *" class="text-type" id="city">
+            </div>
+            <div class="input-el">
+
+                <div class="select-wrapper">
+                  <input list="events_input" placeholder="Events you want to Participate*" autocomplete="off" class="events-input" onclick="this.focus()" onfocus="showData('events_input')" style="
+    margin-top: 10px;
+">
+                  </div>
+                  <div class="selected-events"></div>
+                  <input type="email" placeholder="Email *" class="text-type" id="email">
+                  <input type="password" placeholder="Password*" class="text-type" id="password">
+                  <input type="number" step="0" placeholder="Phone *" class="text-type" id="phone">
+                  <select class="checkboxes" id="choreo" autocomplete="off">
+                    <option disabled="" selected="">Are you a Mentor/Choregrapher?</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+                <select class="checkboxes" id="head-of-soc" autocomplete="off">
+                    <option disabled="" selected="">Are you a Head of Society?</option>
+                    <option value="true">Yes</option>
+                    <option value="false">No</option>
+                </select>
+                </div>
+          </div>
+
+
+
+          <div class="g-recaptcha-container"><div class="g-recaptcha" data-sitekey="6Ld2H7MUAAAAAK2aN05UrQYmmOPLkQ9d7VFHz-_-"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=2&amp;k=6Ld2H7MUAAAAAK2aN05UrQYmmOPLkQ9d7VFHz-_-&amp;co=aHR0cHM6Ly9iaXRzLW9hc2lzLm9yZzo0NDM.&amp;hl=en&amp;v=NMoy4HgGiLr5NAQaEQa2ho8X&amp;size=normal&amp;cb=bsab1rm7jyxd" width="304" height="78" role="presentation" name="a-m4wpc88hiym" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div></div>
+
+          <div class="reg-button-container"><span class="register" onclick="prereg()">REGISTER</span></div>
+
+
+
+  </body>
+
+      <footer id="footer">
+
+
+          <i class="to fab fa-facebook-f"></i>
+          <i class=" to fab fa-twitter"></i>
+          <i class="to fab fa-instagram"></i>
+          <i class="to fas fa-envelope"></i>
+            <p>© Copyright 2020 Mugdha -Virtual event made by Laasya
+        </p>
+      </footer>
+
+</html>
